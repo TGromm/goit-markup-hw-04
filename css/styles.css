@@ -486,10 +486,18 @@ img {
   height: 24%
   margin: auto;
   border-radius: 50%;
-  
 }
+.href {
+display: block;
+  fill: #f4f4fd;
+  background-color: #4d5ae5;
+  width: 24%;
+  height: 24%
+  margin: auto;
+  border-radius: 50%;
 
 
+}
 
 
 
