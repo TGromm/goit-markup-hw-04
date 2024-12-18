@@ -135,21 +135,6 @@ img {
 }
 
 /*MAIN*/
-/*.main-section {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #2e2f42;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpg);
-  padding: 188px 0;*/
-
 .main-section {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -295,6 +280,11 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.names {
+  padding: 32px 0 32px;
+  align-content: center;
+}
+
 .team-list-soc {
   display: flex;
   gap: 16px;
@@ -321,10 +311,7 @@ img {
   color: #2e2f42;
   align-items: center;
 }
-.names {
-  padding: 32px 0 32px;
-  align-content: center;
-}
+
 .text-s-team {
   font-weight: 400;
   font-size: 16px;
