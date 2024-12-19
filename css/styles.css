@@ -470,6 +470,10 @@ img {
   height: 80px;
 }
 
+.container .container-logo-p {
+  margin-right: 120px;
+}
+
 .text-footer {
   color: #f4f4fd;
   width: 264px;
