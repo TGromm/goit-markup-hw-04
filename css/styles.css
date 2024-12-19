@@ -521,8 +521,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.href:hover,
-.href:focus {
+.page-footer-second-block .href:hover,
+.page-footer-second-block .href:focus {
   background-color: #31d0aa;
 }
 
