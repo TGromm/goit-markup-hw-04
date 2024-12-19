@@ -272,8 +272,6 @@ img {
   color: #2e2f42;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
-  gap: 24px;
 }
 .list-team {
   background-color: #ffffff;
@@ -316,6 +314,7 @@ img {
 .list-name {
   display: flex;
   margin-top: 72px;
+  justify-content: center;
   gap: 24px;
 }
 .name-team {
