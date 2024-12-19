@@ -272,6 +272,8 @@ img {
   color: #2e2f42;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
+  gap: 24px;
 }
 .list-team {
   background-color: #ffffff;
@@ -286,6 +288,11 @@ img {
 .names {
   padding: 32px 0 32px;
   align-content: center;
+}
+
+.li-icon .href:hover,
+.li-icon .href:focus {
+  background-color: #404bbf;
 }
 
 .team-icon {
