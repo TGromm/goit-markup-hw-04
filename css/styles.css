@@ -135,9 +135,9 @@ img {
 }
 
 /*MAIN*/
-.section .main-section {
-  max-width: 1440px;
-}
+/*.section .main-section {
+  max-width: 1440px;*/
+
 .main-section {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -148,6 +148,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   padding: 188px 0;
+  max-width: 1440px;
 }
 
 .main-name {
@@ -467,7 +468,6 @@ img {
 }
 
 .page-footer-top-block {
-  margin-left: 156px;
   margin-right: 120px;
 }
 
