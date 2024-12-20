@@ -380,6 +380,8 @@ img {
   justify-content: center;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative; /* Додано */
+  overflow: hidden; /* Додано */
 }
 
 .li-port:hover {
@@ -393,7 +395,7 @@ img {
   overflow: hidden;
 }
 
-.overlay-paragraf {
+.overlay-paragraph {
   position: absolute;
   top: 0;
   left: 0;
@@ -410,7 +412,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.div-for-img:hover .overlay-paragraf {
+.div-for-img:hover .overlay-paragraph {
   transform: translateY(0%);
 }
 
@@ -471,6 +473,11 @@ img {
 .div-for-img:hover .portfolio-overlay-text {
   transform: translateY(0%);
 }
+
+/*.container-h-p {
+  transition: none !important; 
+}*/
+
 /*footer*/
 .footer {
   background-color: #2e2f42;
