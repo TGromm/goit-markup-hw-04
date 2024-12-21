@@ -346,8 +346,7 @@ img {
   gap: 24px;
   align-items: center;
   flex-wrap: wrap;
-  /*width: calc((100%-72) / 3);*/
-  width: 100%;
+  width: calc((100%-72) / 3);
 }
 
 .name-portfolio {
@@ -376,12 +375,11 @@ img {
 }
 
 .li-port {
+  width: 360px;
   align-items: center;
   justify-content: center;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative; /* Додано */
-  overflow: hidden; /* Додано */
 }
 
 .li-port:hover {
@@ -427,6 +425,7 @@ img {
   text-align: left;
 }
 .container-h-p {
+  width: 360px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
